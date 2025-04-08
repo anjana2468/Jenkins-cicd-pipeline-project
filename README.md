@@ -55,7 +55,7 @@ Use the SonarQube plugin to analyze the code quality.
 Use Maven to package the application into a .jar file.
 
 🧪 Stage 6: Deploy to Test Environment
-Use Helm with the Kubernetes Continuous Deploy plugin to deploy the application.
+Kubernetes Continuous Deploy plugin to deploy the application.
 
 
 🚀 Stage 7: Deploy to Production
