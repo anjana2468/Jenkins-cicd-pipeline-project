@@ -1,8 +1,8 @@
 ![Screenshot 2025-04-06 162534](https://github.com/user-attachments/assets/d58fec03-6fc5-4922-9aca-5708337256c3)
 
-### 🚀 CI/CD Pipeline for Spring Boot Application on Kubernetes
+# 🚀 CI/CD Pipeline for Spring Boot Application on Kubernetes
 
-## This project demonstrates a fully automated CI/CD pipeline for deploying a Java-based Spring Boot application on a Kubernetes cluster. It leverages industry-standard DevOps tools to ensure a seamless workflow from development to production.
+# This project demonstrates a fully automated CI/CD pipeline for deploying a Java-based Spring Boot application on a Kubernetes cluster. It leverages industry-standard DevOps tools to ensure a seamless workflow from development to production.
 
 ## 🧰 Prerequisites
 GitHub – Version control for source code management
