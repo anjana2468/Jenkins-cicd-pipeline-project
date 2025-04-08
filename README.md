@@ -22,7 +22,7 @@ Argo CD – Enabling GitOps-driven continuous deployment
 Shell Scripting – Automating various pipeline tasks
 
 ## 🛠️ Steps to Set Up the CI/CD Pipeline
- # 1. Install Required Jenkins Plugins
+ ### 1. Install Required Jenkins Plugins
 Git plugin
 
 Maven Integration plugin
@@ -31,14 +31,14 @@ Pipeline plugin
 
 Kubernetes Continuous Deploy plugin
 
-# 2. Create a New Jenkins Pipeline
+### 2. Create a New Jenkins Pipeline
 In Jenkins, create a new pipeline job.
 
 Configure it with the Git repository URL of your Java application.
 
 Add a Jenkinsfile to the repository to define the pipeline stages.
 
- # 3. Define the Pipeline Stages
+ ### 3. Define the Pipeline Stages
 ✅ Stage 1: Checkout Source Code
 Use the Git plugin to check out the source code from the Git repository.
 
@@ -63,7 +63,7 @@ Run user acceptance tests using a tool like Selenium.
 🚀 Stage 8: Deploy to Production
 Promote the application to production using Argo CD.
 
-## 4. Set Up Argo CD
+### 4. Set Up Argo CD
 Install Argo CD on your Kubernetes cluster.
 
 Set up a Git repository for Argo CD to track Helm charts and Kubernetes manifests.
@@ -72,12 +72,12 @@ Create a Helm chart for your Java application.
 
 Add the Helm chart to the Git repository tracked by Argo CD.
 
-## 5. Integrate Jenkins with Argo CD
+### 5. Integrate Jenkins with Argo CD
 Add your Argo CD API token to Jenkins credentials.
 
 Update the Jenkinsfile to include the Argo CD deployment stage.
 
-## 6. Run the Jenkins Pipeline
+### 6. Run the Jenkins Pipeline
 Trigger the Jenkins pipeline to start the CI/CD process.
 
 Monitor each stage and resolve any issues if they arise.
