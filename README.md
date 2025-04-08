@@ -25,20 +25,21 @@ Shell Scripting – Automating various pipeline tasks
 ## 🛠️ Steps to Set Up the CI/CD Pipeline
  ### 1. Install Required Jenkins Plugins
 Git plugin
-
+````
 Maven Integration plugin
 
 Pipeline plugin
 
 Kubernetes Continuous Deploy plugin
-
+````
 ### 2. Create a New Jenkins Pipeline
+```
 In Jenkins, create a new pipeline job.
 
 Configure it with the Git repository URL of your Java application.
 
 Add a Jenkinsfile to the repository to define the pipeline stages.
-
+````
  ### 3. Define the Pipeline Stages
 ````
 pipeline {
@@ -111,18 +112,21 @@ pipeline {
 }
 ````
 ### 4. Set Up Argo CD
+```
 Install Argo CD on your Kubernetes cluster.
-
+```
 ### 5. Integrate Jenkins with Argo CD
+```
 Add your Argo CD API token to Jenkins credentials.
 
 Update the Jenkinsfile to include the Argo CD deployment stage.
-
+```
 ### 6. Run the Jenkins Pipeline
+```
 Trigger the Jenkins pipeline to start the CI/CD process.
 
 Monitor each stage and resolve any issues if they arise.
-
+```
 ### Screenshots
 
 ![Screenshot 2025-04-04 191647](https://github.com/user-attachments/assets/109d4be9-5db2-46d6-a5f8-23601eea717c)
