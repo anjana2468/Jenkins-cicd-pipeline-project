@@ -82,6 +82,8 @@ Trigger the Jenkins pipeline to start the CI/CD process.
 
 Monitor each stage and resolve any issues if they arise.
 
+### Screenshots
+
 ![Screenshot 2025-04-04 191647](https://github.com/user-attachments/assets/109d4be9-5db2-46d6-a5f8-23601eea717c)
 
 ![Screenshot 2025-04-04 193545](https://github.com/user-attachments/assets/c674bb5e-01c9-4480-bf62-a9cba4a8f80d)
