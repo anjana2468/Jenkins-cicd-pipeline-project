@@ -136,5 +136,13 @@ Monitor each stage and resolve any issues if they arise.
 
 ![Screenshot 2025-04-04 193938](https://github.com/user-attachments/assets/91eec171-1dfc-4049-95c8-63d3d1ecda23)
 
+How to Contribute Contributions are welcome! If you'd like to improve this project or add new features, feel free to fork the repository and submit a pull request.
 
+1.Fork the repository.
+
+2.Create a new branch with your feature/bug fix.
+
+3.Push the branch and open a pull request.
+
+License This project is open-source and available under the MIT License.
 
