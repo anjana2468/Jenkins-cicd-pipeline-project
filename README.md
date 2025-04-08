@@ -1,18 +1,15 @@
-# Jenkins Pipeline for Java based application using Maven, SonarQube, Argo CD, Helm and Kubernetes
+![Screenshot 2025-04-06 162534](https://github.com/user-attachments/assets/d58fec03-6fc5-4922-9aca-5708337256c3)
 
-![Screenshot 2023-03-28 at 9 38 09 PM](https://user-images.githubusercontent.com/43399466/228301952-abc02ca2-9942-4a67-8293-f76647b6f9d8.png)
-
-
-Here are the step-by-step details to set up an end-to-end Jenkins pipeline for a Java application using SonarQube, Argo CD, Helm, and Kubernetes:
-
-Prerequisites:
-
-   -  Java application code hosted on a Git repository
-   -   Jenkins server
-   -  Kubernetes cluster
-   -  Helm package manager
-   -  Argo CD
-
+#  This project demonstrates a fully automated CI/CD pipeline for deploying a Java-based Spring Boot application on a Kubernetes cluster. It leverages industry-standard DevOps tools to ensure a seamless workflow 
+   from  development to production.
+   GitHub – Version control for source code management 
+   Jenkins – Automating the build, test, and deployment process 
+   Maven – Managing dependencies and building the application 
+   SonarQube – Ensuring code quality and security 
+   Docker – Containerizing the application for consistency 
+   DockerHub – Hosting and distributing Docker images 
+   ArgoCD – Enabling GitOps-driven continuous deployment 
+   Shell Scripting – Automating various pipeline tasks
 Steps:
 
     1. Install the necessary Jenkins plugins:
@@ -59,4 +56,11 @@ Steps:
        7.1 Trigger the Jenkins pipeline to start the CI/CD process for the Java application.
        7.2 Monitor the pipeline stages and fix any issues that arise.
 
-This end-to-end Jenkins pipeline will automate the entire CI/CD process for a Java application, from code checkout to production deployment, using popular tools like SonarQube, Argo CD, Helm, and Kubernetes.
+![Screenshot 2025-04-04 191647](https://github.com/user-attachments/assets/109d4be9-5db2-46d6-a5f8-23601eea717c)
+
+![Screenshot 2025-04-04 193938](https://github.com/user-attachments/assets/91eec171-1dfc-4049-95c8-63d3d1ecda23)
+
+![Screenshot 2025-04-04 193545](https://github.com/user-attachments/assets/c674bb5e-01c9-4480-bf62-a9cba4a8f80d)
+
+
+
