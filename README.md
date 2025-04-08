@@ -4,6 +4,7 @@
 
 ## This project demonstrates a fully automated CI/CD pipeline for deploying a Java-based Spring Boot application on a Kubernetes cluster. This streamlined pipeline automates code integration, testing, security scanning, containerization, and deployment ensuring a fast, reliable, and scalable delivery process!
 ## 🧰 Prerequisites
+````
 GitHub – Version control for source code management
 
 Jenkins – Automating the build, test, and deployment process
@@ -19,6 +20,7 @@ DockerHub – Hosting and distributing Docker images
 Argo CD – Enabling GitOps-driven continuous deployment
 
 Shell Scripting – Automating various pipeline tasks
+````
 
 ## 🛠️ Steps to Set Up the CI/CD Pipeline
  ### 1. Install Required Jenkins Plugins
