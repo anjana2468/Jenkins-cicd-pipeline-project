@@ -57,20 +57,12 @@ Use Maven to package the application into a .jar file.
 🧪 Stage 6: Deploy to Test Environment
 Use Helm with the Kubernetes Continuous Deploy plugin to deploy the application.
 
-✅ Stage 7: User Acceptance Testing
-Run user acceptance tests using a tool like Selenium.
 
-🚀 Stage 8: Deploy to Production
+🚀 Stage 7: Deploy to Production
 Promote the application to production using Argo CD.
 
 ### 4. Set Up Argo CD
 Install Argo CD on your Kubernetes cluster.
-
-Set up a Git repository for Argo CD to track Helm charts and Kubernetes manifests.
-
-Create a Helm chart for your Java application.
-
-Add the Helm chart to the Git repository tracked by Argo CD.
 
 ### 5. Integrate Jenkins with Argo CD
 Add your Argo CD API token to Jenkins credentials.
