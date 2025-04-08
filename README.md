@@ -24,8 +24,9 @@ Shell Scripting – Automating various pipeline tasks
 
 ## 🛠️ Steps to Set Up the CI/CD Pipeline
  ### 1. Install Required Jenkins Plugins
+```
 Git plugin
-````
+
 Maven Integration plugin
 
 Pipeline plugin
