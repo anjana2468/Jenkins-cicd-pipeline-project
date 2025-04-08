@@ -21,7 +21,7 @@ Argo CD – Enabling GitOps-driven continuous deployment
 
 Shell Scripting – Automating various pipeline tasks
 
-🛠️ Steps to Set Up the CI/CD Pipeline
+## 🛠️ Steps to Set Up the CI/CD Pipeline
 1. Install Required Jenkins Plugins
 Git plugin
 
